@@ -1,0 +1,211 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: .20em;
+}
+
+nav {
+    letter-spacing: .10em;
+    display: flex;
+}
+
+.spacing {
+    letter-spacing: .10em;
+    word-spacing: 1.5em;
+    text-align: center
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+li + li {
+    margin: 1.5em;
+    text-align: center;
+}
+
+li:hover {
+    color:gray;
+    font-weight: 900;
+}
+
+th:hover {
+    color:gold;
+}
+
+table, th {
+    border: 1px #dee2e6;
+}
+
+.white {
+    color:white;
+}
+
+.black {
+    color: black;
+}
+
+
+.lightgrey {
+    color: #dee2e6;
+}
+
+.gold {
+    color: gold;
+}
+
+.off-white {
+    color: #f8f8f8;
+}
+
+
+.f1 {
+    font-size: 35px;
+}
+
+.f2 {
+    font-size: 20px;
+}
+
+.classic {
+    font-family:"Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+}
+
+li {
+    display: inline;
+    letter-spacing: .10em;
+    word-spacing: 1.5em;
+    text-align: center
+}
+
+/*.inline {
+    display: inline
+}*/
+
+.box {
+    display: flex;
+    gap: 50px;
+}
+
+.middle{
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+ }
+
+.center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 115px;
+    margin-left: 115px;
+   /* margin: auto;*/
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+header {
+    padding: 80px;
+    text-align: center;
+    background-image: url("https://www.skin1004.com/cdn/shop/products/skin1004-ampoule-serum-madagascar-centella-ampoule-30258989072541.gif?v=1677148618&width=720");
+    
+    /*background: #f8d79b;*/
+    color: white;
+    border: 5px;
+}
+
+footer {
+    padding: 80px;
+    text-align: center;
+    background: #d2bd95;
+    color: white;
+    
+}
+
+@media(min-width: 650) and (max-width: 800px){
+    .bg-responsive-color{
+        background-color: white;
+    }
+    .inline {
+        display: inline
+    }
+
+}
+@media(max-width: 650px){
+    .bg-responsive-color{
+        background-color: #f4d08c;
+    }
+    .hide-small{
+        display:none;
+    }
+    .box {
+        display:block;
+    }
+
+}
+
+
+@media(min-width: 300px) and (max-width: 600px){
+    header{
+        background-image: url("https://www.skin1004.com/cdn/shop/products/skin1004-tonner-madagascar-centella-toning-toner-30259313770653.gif?v=1677149206&width=720");
+    }
+    
+    .bg-responsive-color{
+        background-color: #fadfac;
+    }
+    .puff{
+        color:black;
+    }
+    .huff{
+        color:white;
+    }
+    .hide-small{
+        display:none;
+    }
+
+    .middle {
+        display: none;
+    }
+    
+    .big{
+        font-size: 50px;
+        color: white;
+    }
+
+    li:hover {
+        color:white;
+        font-weight: 900;
+    }
+
+    img {
+        width: 200px;
+        height: 225px;
+    }
+
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.margin0 {
+    padding: 0;
+}
+
+.bg-responsive-color {
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.bg-dark {
+    background-color: black;
+    color: silver;
+}
